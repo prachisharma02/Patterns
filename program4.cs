@@ -13,13 +13,14 @@ namespace Pattern
             Console.WriteLine("5. Number-changing Pyramid Pattern:");
             Console.Write("enter the no of rows : ");
             int n = Convert.ToInt32(Console.ReadLine());
-            for (int i = n; i >=0; i--)
+            for (int i = 1; i < n; i++)
             {
-                for (int j = i; j >=0 ; j--)
+                for (int j = i; j <n; j++)
                 {
-                    Console.Write(j);
+                    Console.Write(i);
                 }
                 Console.WriteLine();
             }
         }
+    }
 }
