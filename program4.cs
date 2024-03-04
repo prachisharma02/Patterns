@@ -6,22 +6,20 @@ using System.Threading.Tasks;
 
 namespace Pattern
 {
-    internal class Program
+    internal class Program4
     {
-        static void Main(string[] args)
-           
+        public void Ptt()
         {
-            Console.WriteLine("3. Number-increasing Pyramid Pattern:");
+            Console.WriteLine("5. Number-changing Pyramid Pattern:");
             Console.Write("enter the no of rows : ");
             int n = Convert.ToInt32(Console.ReadLine());
-            for (int i=1; i<=n; i++)
+            for (int i = n; i >=0; i--)
             {
-                for(int j=1; j<=i; j++)
+                for (int j = i; j >=0 ; j--)
                 {
                     Console.Write(j);
                 }
                 Console.WriteLine();
             }
         }
-    }
 }

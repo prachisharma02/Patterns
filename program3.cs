@@ -9,8 +9,9 @@ namespace Pattern
     internal class Program
     {
         static void Main(string[] args)
-           
         {
+            program5 p = new program5();
+           p.Ptt();
             Console.WriteLine("3. Number-increasing Pyramid Pattern:");
             Console.Write("enter the no of rows : ");
             int n = Convert.ToInt32(Console.ReadLine());
@@ -21,6 +22,7 @@ namespace Pattern
                     Console.Write(j);
                 }
                 Console.WriteLine();
+               
             }
         }
     }
