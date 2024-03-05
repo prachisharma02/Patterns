@@ -10,6 +10,25 @@ namespace Pattern
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("8. Rhombus Pattern:");
+            Console.Write("enter the no of rows : ");
+            int n = Convert.ToInt32(Console.ReadLine());
+            for (int i = 1; i < n; i++)
+            {
+               for(int j = 1; j <= n-i-1; j++)
+                {
+                    Console.Write(" ");
+                }
+               for(int j = 1;j < n; j++)
+                {
+                    Console.Write("*");
+                }
+              
+                   
+                
+                Console.WriteLine();
+
+            }
             //Pattern3 pattern3 = new Pattern3();
             //pattern3.Patt();
             //Program5 p = new Program5();
@@ -22,8 +41,8 @@ namespace Pattern
             //p2.Ptt();
             //Program7 p7 = new Program7();
             //p7.Ptt();
-            Program8 p8 = new Program8();
-            p8.Ptt();
+            //Program8 p8 = new Program8();
+            //p8.Ptt();
             //Program9 p9 = new Program9();
             //p9.Ptt();
             //Program10 p10 = new Program10();
