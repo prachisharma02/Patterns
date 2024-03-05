@@ -44,10 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="mainfile.cs" />
+    <Compile Include="program2.cs" />
     <Compile Include="pattern3.cs" />
     <Compile Include="program4.cs" />
     <Compile Include="program5.cs" />
     <Compile Include="program6.cs" />
+    <Compile Include="program7.cs" />
+    <Compile Include="program9.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
