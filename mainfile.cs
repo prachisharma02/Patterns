@@ -22,8 +22,23 @@ namespace Pattern
             //p2.Ptt();
             //Program7 p7 = new Program7();
             //p7.Ptt();
-            Program9 p9 = new Program9();
-            p9.Ptt();
+            //Program9 p9 = new Program9();
+            //p9.Ptt();
+            //Program10 p10 = new Program10();
+            //p10.Ptt();
+            //Program15 p15 = new Program15();
+            //p15.Ptt();
+            //Program1 p1 = new Program1();
+            //p1.Ptt();
+            //Program11 p11 = new Program11();
+           // p11.Ptt();
+            //Program12 p12 = new Program12();
+            //p12.Ptt();
+            //Program13 p13 = new Program13();
+            //p13.Ptt();
+            Program14 p14 = new Program14();
+            p14.Ptt();
+
 
         }
     }
